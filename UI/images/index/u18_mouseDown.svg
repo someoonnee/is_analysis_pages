@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="62px" height="39px" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <mask fill="white" id="clip76">
+      <path d="M 0 24  L 0 5  C 0 2.19999999999999  1.04000000000002 0  2.36363636363636 0  L 40.0051948051948 0  L 49.6363636363636 0  C 50.96 0  52 2.19999999999999  52 5  L 52 24  C 52 26.8  50.96 29  49.6363636363636 29  L 2.36363636363636 29  C 1.04000000000002 29  0 26.8  0 24  Z " fill-rule="evenodd" />
+    </mask>
+    <filter x="893px" y="297px" width="62px" height="39px" filterUnits="userSpaceOnUse" id="filter77">
+      <feOffset dx="5" dy="5" in="SourceAlpha" result="shadowOffsetInner" />
+      <feGaussianBlur stdDeviation="2.5" in="shadowOffsetInner" result="shadowGaussian" />
+      <feComposite in2="shadowGaussian" operator="atop" in="SourceAlpha" result="shadowComposite" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.349019607843137 0  " in="shadowComposite" />
+    </filter>
+    <g id="widget78">
+      <image preserveAspectRatio="none" style="overflow:visible" width="52" height="29" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAAdCAYAAADl208VAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHMSURBVFhH7Ze7SsRAFIbnTLJmF7xU1r6Kva2VhWCjooWibLGC6IKNrWCrjWhhq5Wwgo2NYqvNegMbwWK9bS4zx/8ksfEJZiRfmE0mYeF8nAsJKdCZX9n4TpJpxRwZxXLLKwJFmSJ1NLG326LzudXxz6R/8B73NTN7qKPggkWkBhv1KTqdWdjpxfFkD0JWhLB8Q2Q01kjUOIbQ4iWyM9ZLYp0/9TVFYHgg6tLJzMLdZ5oMffRjIl08Kcz8wJZntqwGo/oHnc0uP8dpSv0spYC0CgLNGsqltNNIMVn8GmPJsFWNsMZ0Mb/6lLGlzFo1EARYIUs9oi6dLz70O0nfZ8ao2BokBHFfL609iiUEVRSGXAt03mDIkvNCiDsXSo1Vic1QXxC6bW4+aNIsJSbZCSGUT43iP04j/SNTORMhk+UZoG5r6z7MhSCBoVDTgXdzLkW5WQwFOehlfbsr2cizBCEfhsFfJAMy5SxmgZbs+CwjSNwSv3hoKTNZvsr8IvHnLsX2/1AJuU4l5DqVkOtUQq5TCbmOxpvqV3ntPeIir6Vv5d578IX3KiV3VWz/AUQ3mtmellvvERc92m52cLWP74m4vO8frAz653C03ez8AB3swsL0bHmgAAAAAElFTkSuQmCC" x="0px" y="0px" transform="matrix(1 0 0 1 893 297 )" />
+      <path d="M 0 24  L 0 5  C 0 2.19999999999999  1.04000000000002 0  2.36363636363636 0  L 40.0051948051948 0  L 49.6363636363636 0  C 50.96 0  52 2.19999999999999  52 5  L 52 24  C 52 26.8  50.96 29  49.6363636363636 29  L 2.36363636363636 29  C 1.04000000000002 29  0 26.8  0 24  Z " stroke-width="2" stroke="#797979" fill="none" transform="matrix(1 0 0 1 893 297 )" mask="url(#clip76)" />
+    </g>
+  </defs>
+  <g transform="matrix(1 0 0 1 -893 -297 )">
+    <use xlink:href="#widget78" filter="url(#filter77)" />
+    <use xlink:href="#widget78" />
+  </g>
+</svg>
